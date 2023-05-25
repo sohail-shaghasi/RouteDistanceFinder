@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteDistanceFinder.App", "RouteDistanceFinder\RouteDistanceFinder.App.csproj", "{A54E8DAC-BA77-4C7F-9F36-C864B222DD80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteDistanceFinder.Core", "RouteDistanceFinder.Core\RouteDistanceFinder.Core.csproj", "{5AD57573-4047-4BE2-9963-E619EC81FB24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteDistanceFinder.Tests", "RouteDistanceFinderTests\RouteDistanceFinder.Tests.csproj", "{CFD29EF0-C7D8-4643-BAE8-4DEF5E226700}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteDistanceFinder.App", "RouteDistanceFinder.App\RouteDistanceFinder.App.csproj", "{179130AA-BA12-42C6-9B99-8C346C2FB8A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteDistanceFinder.Core", "RouteDistanceFinder.Core\RouteDistanceFinder.Core.csproj", "{5AD57573-4047-4BE2-9963-E619EC81FB24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteDistanceFinder.Tests", "RouteDistanceFinder.Tests\RouteDistanceFinder.Tests.csproj", "{A903A4EE-F88D-4818-AD61-088737681D4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A54E8DAC-BA77-4C7F-9F36-C864B222DD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A54E8DAC-BA77-4C7F-9F36-C864B222DD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A54E8DAC-BA77-4C7F-9F36-C864B222DD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A54E8DAC-BA77-4C7F-9F36-C864B222DD80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFD29EF0-C7D8-4643-BAE8-4DEF5E226700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFD29EF0-C7D8-4643-BAE8-4DEF5E226700}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFD29EF0-C7D8-4643-BAE8-4DEF5E226700}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFD29EF0-C7D8-4643-BAE8-4DEF5E226700}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5AD57573-4047-4BE2-9963-E619EC81FB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AD57573-4047-4BE2-9963-E619EC81FB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AD57573-4047-4BE2-9963-E619EC81FB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AD57573-4047-4BE2-9963-E619EC81FB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179130AA-BA12-42C6-9B99-8C346C2FB8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179130AA-BA12-42C6-9B99-8C346C2FB8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179130AA-BA12-42C6-9B99-8C346C2FB8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179130AA-BA12-42C6-9B99-8C346C2FB8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A903A4EE-F88D-4818-AD61-088737681D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A903A4EE-F88D-4818-AD61-088737681D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A903A4EE-F88D-4818-AD61-088737681D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A903A4EE-F88D-4818-AD61-088737681D4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
