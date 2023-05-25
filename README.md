@@ -1,4 +1,7 @@
 # RouteDistanceFinder
+![image](https://github.com/sohail-shaghasi/RouteDistanceFinder/assets/10161791/a7250dd6-4cba-470a-886a-8177b839567d)
+
+In This project, Clean architecture is followed to be able to easily Unit/Integration test all the involved layers. Clean architecture lets infrastructure and implementation details depend on the Application Core.
 
 Route Calculator
 The Route Calculator is a program that calculates various metrics and routes in a given transportation network. It allows users to find distances, count trips, and determine the shortest path between academies (nodes) based on predefined routes (edges) in the network.
