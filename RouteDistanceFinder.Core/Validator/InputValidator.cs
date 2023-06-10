@@ -16,8 +16,8 @@
                 throw new InvalidRouteException("Invalid input. Input should contain three parts separated by spaces.");
             }
 
-            startAcademy = inputParts[0].ToLower();
-            endAcademy = inputParts[1].ToLower();
+            startAcademy = inputParts[0];
+            endAcademy = inputParts[1];
 
             if (startAcademy.Length != 1 || !startAcademy.All(char.IsLetter))
             {
@@ -47,7 +47,6 @@
             {
                 throw new InvalidRouteException("Invalid input. Input should contain two parts separated by spaces.");
             }
-
 
 
             if (startAcademy.Length != 1 || !startAcademy.All(char.IsLetter))

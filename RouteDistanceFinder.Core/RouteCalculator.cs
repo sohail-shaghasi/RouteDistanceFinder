@@ -2,9 +2,11 @@
 {
     public class RouteCalculator : IRouteCalculator
     {
+        // Adjacency list
         Dictionary<string, Academy> Academies = new Dictionary<string, Academy>();
+        
         /*
-          * This function calculates the total distance of a given route epresented as a string. 
+          * This function calculates the total distance of a given route represented as a string. 
           * It splits the route into individual segments and iterates through each segment. 
           * For each segment, it retrieves the start academy from a dictionary and searches for the route to the end academy based on the provided names. 
           * If the route exists, it adds its distance to the total distance. 
