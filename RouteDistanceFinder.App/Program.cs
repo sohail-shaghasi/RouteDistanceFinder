@@ -1,4 +1,11 @@
-﻿
+﻿/*
+ * ==========================================================================
+ * Terminologies in the context of this program that are used interchangebly.
+ * ==========================================================================
+ * Vertices, Nodes, Academies, destinations, stops.
+ * Distance, Weight, Cost.
+ * Edge, Route, Trip, Path, Connection, Link, graph, journey, network.
+ */
 
 List<string> Options = new List<string>() { "1", "2", "3", "4", "5" };
 

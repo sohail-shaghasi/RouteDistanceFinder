@@ -200,12 +200,12 @@
                 // Add the academy to the list if it does not exist.
                 if (!Academies.ContainsKey(startAcademyName))
                 {
-                    Academies[startAcademyName] = new Academy(startAcademyName); ;
+                    Academies[startAcademyName] = new Academy(startAcademyName);
                 }
 
                 if (!Academies.ContainsKey(endAcademyName))
                 {
-                    Academies[endAcademyName] = new Academy(endAcademyName); ;
+                    Academies[endAcademyName] = new Academy(endAcademyName);
                 }
 
                 Academy startAcademy = Academies[startAcademyName];
